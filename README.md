@@ -14,3 +14,5 @@ set ip/file
 show  
 4.運行  
 go
+
+下載地址：https://github.com/sulab999/Taichi-v0.1
