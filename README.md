@@ -9,16 +9,16 @@
 ## 使用
 1.加載模塊  
 load <模塊> <協議>  
-e.g:
-load portscan 
-load burt ftp
+e.g:  
+load portscan  
+load burt ftp  
 2.設置參數  
-set ip/file  xxx
+set ip/file  xxx  
 3.展示參數  
 show  
 4.運行  
-go
-##更新：
+go  
+## 更新：  
 v0.1  
 1、已實現端口掃描和爆破模塊
 
