@@ -15,4 +15,4 @@ show
 4.運行  
 go
 
-下載地址：https://github.com/sulab999/Taichi-v0.1
+下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.1
