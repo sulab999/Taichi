@@ -1,7 +1,7 @@
 # TAIJISUITE
 ## 簡介
 基於go語言實現的仿MSF滲透測試框架，已實現"RDP","JAVADEBUG","REDIS", "FTP", "SNMP", "POSTGRESQL", "SSH", "MONGO", "SMB", "MSSQL", "MYSQL", "ELASTICSEARCH"服務的弱口令掃描  
-![TAIJI](https://github.com/sulab999/Taichi/blob/main/demo.png "demo")
+![TAIJI](https://github.com/sulab999/Taichi/raw/main/demo.png "demo")
 ## 編譯運行
 1、安裝第三方庫（命令：go get xxx）  
 2、go run main.go
