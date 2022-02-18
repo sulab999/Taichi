@@ -19,11 +19,11 @@ show
 4.運行  
 go  
 
-路径扫描  
+路径扫描（需要本地有urldic.txt）  
 use：load urlscan  
 set url xxx  
 go  
-子域名  
+子域名（需要本地有subdic.txt）  
 use：load subdomain  
 set domain xxx  
 go  
