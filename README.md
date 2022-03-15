@@ -7,7 +7,7 @@
 ![TAIJI](https://github.com/sulab999/Taichi/raw/main/demo.png "demo")
 ## 編譯運行
 1、安裝第三方庫（命令：go get xxx）  
-2、go run main.go
+2、go run main.go  
 3、編譯
 go build  
 
