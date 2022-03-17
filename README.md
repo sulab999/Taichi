@@ -36,5 +36,7 @@ go
 ## 更新：  
 v0.1  
 1、已實現端口掃描和爆破模塊
+## 来元世界交流一下啊
+![TAIJI](https://github.com/sulab999/Taichi/blob/main/nworld.jpg)
 
 下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.2
