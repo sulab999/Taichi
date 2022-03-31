@@ -1,9 +1,10 @@
 # TAIJISUITE
 ## 簡介
-基於go語言實現的高交互滲透測試框架，已實現基础扫描功能，包括：  
+基於go語言實現的高交互滲透測試框架，已實現如下功能：  
 1、"RDP","JAVADEBUG","REDIS", "FTP", "SNMP", "POSTGRESQL", "SSH", "MONGO", "SMB", "MSSQL", "MYSQL", "ELASTICSEARCH"服務的弱口令掃描；  
 2、敏感路徑掃描（基於字典）  
 3、子域名掃描（基於字典）    
+4、增加poc模塊（內置兼容了kunpeng的50+poc）  
 ![TAIJI](https://github.com/sulab999/Taichi/raw/main/demo.png "demo")
 ## 編譯運行
 1、安裝第三方庫（命令：go get xxx）  
@@ -33,6 +34,16 @@ go
 1.load subscan  
 2.set domain http://xxx.cn  
 3.go  
+
+poc功能  
+本地创建plugins文件夹，用于存放yml文件  
+1.poc  
+2.init（首次使用或新增poc時）  
+3.show  
+4.use xxx  
+5.set ip/url xxx  
+6.go  
+
 ## 更新：  
 v0.1  
 1、已實現端口掃描和爆破模塊
