@@ -51,4 +51,4 @@ v0.1
 ![TAIJI](https://github.com/sulab999/Taichi/blob/main/nworld.jpg)
 ![TAIJI](https://github.com/sulab999/Taichi/blob/main/webchat.png)
 
-下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.2.1
+下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.2.2
