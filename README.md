@@ -25,6 +25,13 @@ show
 4.運行  
 go  
 
+端口掃描
+1.load portscan
+2.set ip 127.0.0.1
+或者 set file xxx.txt
+c段 set ip 192.168.1.1-255
+3.go
+
 敏感路径扫描（需要本地有urldic.txt）  
 1.load urlscan  
 2.set ip/domain xxx  
