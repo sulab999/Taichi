@@ -1,12 +1,13 @@
 package enum
 
 import (
+	"context"
 	"fmt"
 	"sulab/core/utils"
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/go-redis/redis"
+	redis "github.com/go-redis/redis/v8"
 )
 
 func RedisScan(ScanType string, Target []string) {
@@ -34,8 +35,10 @@ func RedisScan(ScanType string, Target []string) {
 }
 func ScanRedis(ip string, port string, username string, password string) (result bool, err error) {
 	client := redis.NewClient(&redis.Options{Addr: ip + ":" + port, Password: password, DB: 0, DialTimeout: time.Second * 3})
+	var ctx = context.Background()
 	defer client.Close()
-	_, err = client.Ping().Result()
+	//_, err = client.Ping().Result()
+	_, err = client.Ping(ctx).Result()
 	if err == nil {
 		result = true
 	}
