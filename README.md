@@ -4,7 +4,7 @@
 1、"RDP","JAVADEBUG","REDIS", "FTP", "SNMP", "POSTGRESQL", "SSH", "MONGO", "SMB", "MSSQL", "MYSQL", "ELASTICSEARCH"服務的弱口令掃描；  
 2、敏感路徑掃描（基於字典）  
 3、子域名掃描（基於字典）    
-4、增加poc模塊（內置兼容了kunpeng的50+poc）  
+4、增加poc模塊（已更新300+poc）  
 ![TAIJI](https://github.com/sulab999/Taichi/raw/main/demo.png "demo")
 ## 編譯運行
 1、安裝第三方庫（命令：go get xxx）  
@@ -43,7 +43,7 @@ c段 set ip 192.168.1.1-255
 3.go  
 
 url存活扫描  
-![TAICHI]()
+![TAICHI](https://github.com/sulab999/Taichi/blob/main/test/livescan.png)  
 1.load urlscan live   
 2.set file url.txt  
 3.go 
