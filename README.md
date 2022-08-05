@@ -49,7 +49,7 @@ url存活扫描
 3.go 
 
 poc功能  
-本地创建plugins文件夹，用于存放yml文件  
+本地创建taichi-pocs文件夹，用于存放yml文件  
 1.poc  
 2.init（首次使用或新增poc時）  
 3.show  
