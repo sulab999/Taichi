@@ -1,4 +1,4 @@
-# TAIJISUITE
+# TAICHISUITE
 ## 簡介
 基於go語言實現的高交互滲透測試框架，已實現如下功能：  
 1、"RDP","JAVADEBUG","REDIS", "FTP", "SNMP", "POSTGRESQL", "SSH", "MONGO", "SMB", "MSSQL", "MYSQL", "ELASTICSEARCH"服務的弱口令掃描；  
