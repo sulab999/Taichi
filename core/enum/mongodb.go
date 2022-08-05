@@ -23,7 +23,7 @@ func MongodbScan(ScanType string, Target []string) {
 		if uErr == nil && pErr == nil {
 			scanTasks := GenerateTask(ipList, userDict, passDict)
 			color.Cyan("Number of all task : %d", len(scanTasks))
-			
+
 			RunTask(scanTasks, thread)
 		} else {
 			fmt.Println("Read File Err!")
@@ -32,9 +32,12 @@ func MongodbScan(ScanType string, Target []string) {
 
 }
 
-
 func ScanMongodb(ip string, port string, username string, password string) (result bool, err error) {
-	session, err := mgo.DialWithTimeout("mongodb:
+	timeout := 3 * time.Second
+	// mongodb url: [mongodb://][user:pass@]host1[:port1][,host2[:port2],...][/database][?options]
+	// mongodb://myuser:mypass@localhost:40001,otherhost:40001/mydb
+	mgoUrl := fmt.Sprintf("mongodb://%s:%s@%s:%s/test", username, password, ip, port)
+	session, err := mgo.DialWithTimeout(mgoUrl, timeout)
 	if err == nil && session.Ping() == nil {
 		defer session.Close()
 		if err == nil && session.Run("serverStatus", nil) == nil {
@@ -45,7 +48,9 @@ func ScanMongodb(ip string, port string, username string, password string) (resu
 }
 
 func MongoUnauth(ip string, port string) (err error, result bool) {
-	session, err := mgo.Dial(ip + ":" + port)
+	timeout := 3 * time.Second
+	session, err := mgo.DialWithTimeout(ip+":"+port, timeout)
+	defer session.Close()
 	if err == nil && session.Run("serverStatus", nil) == nil {
 		result = true
 	}

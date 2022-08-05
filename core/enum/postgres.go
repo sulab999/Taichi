@@ -24,7 +24,7 @@ func PostgresScan(ScanType string, Target []string) {
 		if uErr == nil && pErr == nil {
 			scanTasks := GenerateTask(ipList, userDict, passDict)
 			color.Cyan("Number of all task : %d", len(scanTasks))
-			
+
 			RunTask(scanTasks, thread)
 		} else {
 			fmt.Println("Read File Err!")
@@ -33,14 +33,17 @@ func PostgresScan(ScanType string, Target []string) {
 
 }
 func ScanPostgres(ip string, port string, username string, password string) (result bool, err error) {
-	
-	db, err := sql.Open("postgres", fmt.Sprintf("postgres:
-	if err == nil {
-		defer db.Close()
-		err = db.Ping()
-		if err == nil {
-			result = true
-		}
+	// pgurl
+	pgurl := fmt.Sprintf("postgres://%s:%s@%s:%s/postgres?sslmode=disable", username, password, ip, port)
+	db, err := sql.Open("postgres", pgurl)
+	if err != nil {
+		return false, err
 	}
-	return result, err
+	defer db.Close()
+	err = db.Ping()
+	if err != nil {
+		return false, err
+	} else {
+		return true, err
+	}
 }
