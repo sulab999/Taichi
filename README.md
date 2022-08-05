@@ -42,6 +42,12 @@ c段 set ip 192.168.1.1-255
 2.set domain http://xxx.cn  
 3.go  
 
+url存活扫描  
+![TAICHI]()
+1.load urlscan live   
+2.set file url.txt  
+3.go 
+
 poc功能  
 本地创建plugins文件夹，用于存放yml文件  
 1.poc  
@@ -55,7 +61,7 @@ poc功能
 v0.1  
 1、已實現端口掃描和爆破模塊
 ## 来元世界交流一下啊
-![TAIJI](https://github.com/sulab999/Taichi/blob/main/nworld.jpg)
-![TAIJI](https://github.com/sulab999/Taichi/blob/main/webchat.png)
+![TAICHI](https://github.com/sulab999/Taichi/blob/main/nworld.jpg)
+![TAICHI](https://github.com/sulab999/Taichi/blob/main/webchat.png)
 
-下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.2.2
+下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.3
