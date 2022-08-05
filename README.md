@@ -64,4 +64,11 @@ v0.1
 ![TAICHI](https://github.com/sulab999/Taichi/blob/main/nworld.jpg)
 ![TAICHI](https://github.com/sulab999/Taichi/blob/main/webchat.png)
 
+# 免责声明
+该程序及其相关技术仅用于安全自查检测。
+
+由于传播、利用此程序所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，作者不为此承担任何责任。
+
+本人拥有对此程序的修改和解释权。未经网络安全部门及相关部门允许，不得善自使用本程序进行任何攻击活动，不得以任何方式将其用于商业目的。
+
 下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.3
