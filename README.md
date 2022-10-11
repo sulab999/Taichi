@@ -57,6 +57,7 @@ c段 set ip 192.168.1.1-255
 4.use xxx 或set xxx（poc）  
 5.set ip/url xxx  
 6.go  
+扫描结束后，生成的报告在reports文件夹中  
 
 ## 更新：
 後期更新見realse  
