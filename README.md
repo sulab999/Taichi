@@ -33,45 +33,45 @@ go
 c段 set ip 192.168.1.1-255  
 3.go  
 
-## 敏感路径扫描（需要本地有urldic.txt）  
+## 敏感路徑掃描（需要本地有urldic.txt）  
 1.load urlscan  
 2.set ip/domain xxx  
 3.go
 
-## 子域名扫描（需要本地有subdic.txt）  
+## 子域名掃描（需要本地有subdic.txt）  
 1.load subscan  
 2.set domain http://xxx.cn  
 3.go  
 
-## url存活扫描  
+## url存活掃描  
 ![TAICHI](https://github.com/sulab999/Taichi/blob/main/test/livescan.png)  
 1.load urlscan live   
 2.set file url.txt  
 3.go 
 
 ## poc功能  
-本地创建taichi-pocs文件夹，用于存放yml文件  
+本地創建taichi-pocs文件夾，用於存放yml文件  
 1.poc  
 2.init（首次使用或新增poc時）  
 3.show  
 4.use xxx 或set xxx（poc）  
 5.set ip/url xxx  
 6.go  
-扫描结束后，生成的报告在reports文件夹中  
+掃描結束後，生成的報告在reports文件夾中  
 
 ## 更新：
 後期更新見realse  
 v0.1  
 1、已實現端口掃描和爆破模塊
-## 来元世界交流一下啊
+## 來元世界交流一下啊
 ![TAICHI](https://github.com/sulab999/Taichi/blob/main/nworld.jpg)
 ![TAICHI](https://github.com/sulab999/Taichi/blob/main/webchat.png)
 
-# 免责声明
-该程序及其相关技术仅用于安全自查检测。
+# 免責聲明
+該程序及其相關技術僅用於安全自查檢測。
 
-由于传播、利用此程序所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，作者不为此承担任何责任。
+由於傳播、利用此程序所提供的信息而造成的任何直接或者間接的後果及損失，均由使用者本人負責，作者不為此承擔任何責任。
 
-本人拥有对此程序的修改和解释权。未经网络安全部门及相关部门允许，不得善自使用本程序进行任何攻击活动，不得以任何方式将其用于商业目的。
+本人擁有對此程序的修改和解釋權。未經網絡安全部門及相關部門允許，不得善自使用本程序進行任何攻擊活動，不得以任何方式將其用於商業目的。
 
 下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.4
