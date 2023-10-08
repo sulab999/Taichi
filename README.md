@@ -6,6 +6,7 @@
 3、子域名掃描（基於字典）    
 4、增加poc模塊（已更新700+poc）  
 5、url存活檢測  
+6、端口掃描&服務識別  
 ![TAIJI](https://github.com/sulab999/Taichi/raw/main/demo.png "demo")
 ## 編譯運行
 1、安裝第三方庫（命令：go get xxx）  
