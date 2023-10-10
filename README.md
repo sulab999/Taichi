@@ -64,8 +64,7 @@ c段 set ip 192.168.1.1-255
 後期更新見realse  
 v0.1  
 1、已實現端口掃描和爆破模塊
-## 來元世界交流一下啊
-![TAICHI](https://github.com/sulab999/Taichi/blob/main/nworld.jpg)
+## 交流一下啊
 ![TAICHI](https://github.com/sulab999/Taichi/blob/main/webchat.png)
 
 # 免責聲明
