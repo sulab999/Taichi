@@ -75,4 +75,4 @@ v0.1
 
 本人擁有對此程序的修改和解釋權。未經網絡安全部門及相關部門允許，不得善自使用本程序進行任何攻擊活動，不得以任何方式將其用於商業目的。
 
-下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.4
+下載地址：https://github.com/sulab999/Taichi/releases/tag/v0.5
